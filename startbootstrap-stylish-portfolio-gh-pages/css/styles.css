@@ -11500,7 +11500,7 @@ footer.footer .social-link:hover {
   z-index: 1;
 }
 .portfolio-item .caption .caption-content {
-  color: var(--bs-gray-dark);
+  color: #fff;
   margin: auto 2rem 2rem;
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
@@ -11579,6 +11579,54 @@ footer.footer .social-link:hover {
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
+}
+
+.image_overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 520px;
+  height: 250px;
+  background:rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image_overlay-blur {
+  backdrop-filter: blur(5px);
+}
+
+.image_overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image_overlay:hover {
+  opacity: 1;
+}
+
+.image_overlay:hover > * {
+  transform: translateY(0);
+}
+
+
+.image_title{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.image_description{
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* {
