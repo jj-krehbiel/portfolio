@@ -3233,7 +3233,7 @@ textarea.form-control-lg {
 }
 
 .btn-dark {
-  color: #fff;
+  color: #D5DBDB;
   background-color: #212529;
   border-color: #212529;
 }
@@ -11478,7 +11478,7 @@ footer.footer .social-link:hover {
     height: 100vh;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 5.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -11678,6 +11678,9 @@ footer.footer .social-link:hover {
   padding-right: 20px;
 }
 
+.form-link{
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
 
 
 /* {
