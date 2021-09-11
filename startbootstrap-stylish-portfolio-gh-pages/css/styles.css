@@ -11548,7 +11548,8 @@ footer.footer .social-link:hover {
 }
 
 .service-icon {
-  background-color: #fff;
+  
+  /* background-color: #fff; */
   color: #1D809F;
   height: 7rem;
   width: 7rem;
@@ -11556,6 +11557,54 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.serv-icon1 {
+  background:center url(../assets/img/icons/servicon1.png);
+  height: 7rem;
+  width: 7rem;
+  display: inline-block;
+}
+
+.serv-icon2 {
+  background:center url(../assets/img/icons/servicon2.png);
+  height: 7rem;
+  width: 7rem;
+  display: inline-block;
+}
+
+.serv-icon3 {
+  background:center url(../assets/img/icons/servicon3.png);
+  height: 7rem;
+  width: 7rem;
+  display: inline-block;
+}
+
+.serv-icon4 {
+  background:center url(../assets/img/icons/servicon4.png);
+  height: 7rem;
+  width: 7rem;
+  display: inline-block;
+}
+
+.serv-icon5 {
+  background:center url(../assets/img/icons/servicon5.png);
+  height: 7rem;
+  width: 7rem;
+  display: inline-block;
+}
+
+.serv-icon6 {
+  background:center url(../assets/img/icons/servicon6.png);
+  height: 7rem;
+  width: 7rem;
+  display: inline-block;
+}
+
+.icon-img{
+  object-position: center;
+  max-width: 7rem;
+  max-height: 7rem;
 }
 
 .form-group{
@@ -11628,6 +11677,8 @@ footer.footer .social-link:hover {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+
 
 /* {
   object-fit: fill; /* Do not scale the image */
