@@ -3215,9 +3215,14 @@ textarea.form-control-lg {
   font: inherit;
   border-radius: 12px;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.btn-send:hover {
+  color: #f9fafb;
+  background-color: #1D809F;
 }
 
 .btn-light:hover {
@@ -3248,7 +3253,7 @@ textarea.form-control-lg {
 .btn-dark {
   color: #D5DBDB;
   background-color: #212529;
-  border-color: #212529;
+  border-color: #1D809F;
 }
 .btn-dark:hover {
   color: #fff;
@@ -11409,6 +11414,7 @@ html {
   text-align: center;
   color: #fff;
   background: rgba(52, 58, 64, 0.5);
+  /* background: #1D809F; */
   line-height: 50px;
   z-index: 999;
 }
@@ -11698,6 +11704,12 @@ footer.footer .social-link:hover {
 
 .form-link{
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+
+.header-img{
+  border: 5px solid #D5DBDB;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 
