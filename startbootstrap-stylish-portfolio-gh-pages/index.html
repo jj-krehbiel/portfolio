@@ -41,12 +41,17 @@
             <br>
             <h1 class="mb-1" style="color: #D5DBDB">JJ Krehbiel</h1>
             <h3 class="mb-5" style="color: #D5DBDB"><em>Data Analyst | Programmer | Web Designer</em></h3>
-            <a class="btn btn-dark btn-xl" href="#services">Services</a>
-            <a class="btn btn-dark btn-xl" href="#portfolio">Portfolio</a>
-            <a class="btn btn-dark btn-xl" href="#about">About</a>
-            <a class="btn btn-dark btn-xl" href="#contact">Contact</a>
 
+            <div class="row">
+                <dvi class="col-md-12">
 
+                    <a class="btn btn-dark btn-xl mt-1" href="#services">Services</a>
+                    <a class="btn btn-dark btn-xl mt-1" href="#portfolio">Portfolio</a>
+
+                    <a class="btn btn-dark btn-xl mt-1" href="#about">About</a>
+                    <a class="btn btn-dark btn-xl mt-1" href="#contact">Contact</a>
+            </div>
+        </div>
         </div>
     </header>
     <!-- Services-->
@@ -70,7 +75,7 @@
                     lives. Using tools like Tableau and plenty of JavaScript libraries, I create dynamic,
                     interactive visualizations that look great on a website, internal report, or board presentation."
                         span class="serv-icon2 service-icon rounded-circle mx-auto mb-3">
-                         <!-- class="services img-thumbnail rounded-circle" object-position="center" src="assets/img/icons/serv-icon1.png"> -->
+                        <!-- class="services img-thumbnail rounded-circle" object-position="center" src="assets/img/icons/serv-icon1.png"> -->
                         <!-- <i class="icon-screen-smartphone"></i> -->
                     </button>
                     <h4><strong>Visualizations + Dashboards</strong></h4>
@@ -92,7 +97,7 @@
                     With tools like linear regressions, cluster analysis, random forests, and neural networks, I can
                     make machine learning work for you, helping your business move forward with solutions backed by
                     statistics." span class="serv-icon4 service-icon rounded-circle mx-auto mb-3">
-                    <!-- <i
+                        <!-- <i
                             class="icon-screen-smartphone"></i> -->
                     </button>
                     <h4><strong>Machine Learning</strong></h4>
@@ -104,7 +109,7 @@
                     clean your data and move into a relational or flat file database where it can easily be
                     retrieved
                     through simple SQL queries." span class="serv-icon5 service-icon rounded-circle mx-auto mb-3">
-                    <!-- <i
+                        <!-- <i
                             class="icon-screen-smartphone">
                         </i> -->
                     </button>
@@ -133,12 +138,14 @@
                     <a class="portfolio-item"
                         href="https://public.tableau.com/app/profile/jj.krehbiel/viz/citi_bike_pandemic_analysis/CitiBikesBeforeandAfterthePandemic"
                         target="_blank">
-                    
+
                         <div class="portfolio-thumbnail">
-                            <img class="portfolio-thumbnail" src="assets/img/cropped/bike.jpeg" alt="A dashboard of NYC's Citi Bike program">
+                            <img class="portfolio-thumbnail" src="assets/img/cropped/bike.jpeg"
+                                alt="A dashboard of NYC's Citi Bike program">
                             <div class="image_overlay image_overlay-blur">
                                 <div class="image_title">Citi Bikes and Covid's Impact</div>
-                                <p class="image_description">An interactive dashboard and map that illustrate trends in New York
+                                <p class="image_description">An interactive dashboard and map that illustrate trends in
+                                    New York
                                     City's public bike program and how usage has been impacted by both the Covid-19
                                     pandemic and vaccine rollout.</p>
                             </div>
@@ -147,12 +154,14 @@
                 </div>
                 <div class="col-lg-6">
                     <a class="portfolio-item" href="https://ai-sommelier.herokuapp.com/index.html" target="_blank">
-                        
+
                         <div class="portfolio-thumbnail">
-                            <img class="portfolio-thumbnail" src="assets/img/cropped/red-wine-banner.jpeg" alt="Glasses of swirling red wine">
+                            <img class="portfolio-thumbnail" src="assets/img/cropped/red-wine-banner.jpeg"
+                                alt="Glasses of swirling red wine">
                             <div class="image_overlay image_overlay-blur">
                                 <div class="image_title">AI Sommelier</div>
-                                <p class="image_description">A proof of concept app that uses Machine Learning to predict the quality
+                                <p class="image_description">A proof of concept app that uses Machine Learning to
+                                    predict the quality
                                     of any given wine based on its physicochemical attributes.</p>
                             </div>
                         </div>
@@ -163,10 +172,12 @@
                         target="_blank">
 
                         <div class="portfolio-thumbnail">
-                            <img class="portfolio-thumbnail" src="assets/img/cropped/map_screen_shot.jpeg" alt="A map of the western united states with different colored and sized markers representing earthquakes">
+                            <img class="portfolio-thumbnail" src="assets/img/cropped/map_screen_shot.jpeg"
+                                alt="A map of the western united states with different colored and sized markers representing earthquakes">
                             <div class="image_overlay image_overlay-blur">
                                 <div class="image_title">Mapping Earthquakes across the globe</div>
-                                <p class="image_description">An interactive map that extracts GeoJSON data from USGS to plot every
+                                <p class="image_description">An interactive map that extracts GeoJSON data from USGS to
+                                    plot every
                                     recorded earthquake from the last seven days with markers that reflect the size and
                                     magnitude.</p>
                             </div>
@@ -176,10 +187,12 @@
                 <div class="col-lg-6">
                     <a class="portfolio-item" href="https://github.com/jj-krehbiel/employee-database" target="_blank">
                         <div class="portfolio-thumbnail">
-                            <img class="portfolio-thumbnail" src="assets/img/cropped/ERD.jpeg" alt="Diagram of the schema for a relational employee database">
+                            <img class="portfolio-thumbnail" src="assets/img/cropped/ERD.jpeg"
+                                alt="Diagram of the schema for a relational employee database">
                             <div class="image_overlay image_overlay-blur">
                                 <div class="image_title">Relational HR Database</div>
-                                <p class="image_description">A data engineering project in which I created a relational SQL database
+                                <p class="image_description">A data engineering project in which I created a relational
+                                    SQL database
                                     to hold company data from a CSV format.</p>
                             </div>
                         </div>
@@ -192,7 +205,8 @@
                             <img class="portfolio-thumbnail" src="assets/img/cropped/bubble.jpeg" alt="A bubble chart">
                             <div class="image_overlay image_overlay-blur">
                                 <div class="image_title">Belly Button Biodiversity</div>
-                                <p class="image_description">An interactive and filterable dashboard that allows the user to explore
+                                <p class="image_description">An interactive and filterable dashboard that allows the
+                                    user to explore
                                     the makeup of the belly button's microbiome.</p>
                             </div>
                         </div>
@@ -202,10 +216,12 @@
                     <a class="portfolio-item" href="https://github.com/jj-krehbiel/school-district-analysis"
                         target="_blank">
                         <div class="portfolio-thumbnail">
-                            <img class="portfolio-thumbnail" src="assets/img/cropped/testing.jpeg" alt="Close up image of hand filling in test bubbles with a pencil">
+                            <img class="portfolio-thumbnail" src="assets/img/cropped/testing.jpeg"
+                                alt="Close up image of hand filling in test bubbles with a pencil">
                             <div class="image_overlay image_overlay-blur">
                                 <div class="image_title">Test score analysis</div>
-                                <p class="image_description">A Jupyter Notebook that combines both district-level and school-level
+                                <p class="image_description">A Jupyter Notebook that combines both district-level and
+                                    school-level
                                     data to identify trends related to math nd reading scores with variables like school
                                     size, budget, and school type</p>
                             </div>
@@ -217,7 +233,8 @@
             <br>
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
-                    <h3>Follow me on <a href="https://github.com/jj-krehbiel" target="_blank" class="form-link">GitHub</a> to view even more of my projects
+                    <h3>Follow me on <a href="https://github.com/jj-krehbiel" target="_blank"
+                            class="form-link">GitHub</a> to view even more of my projects
                     </h3>
                 </div>
             </div>
@@ -233,15 +250,21 @@
                         <h3 class="text-secondary mb-0">About Me</h3>
                         <h2 class="mb-5">My Perspective</h2>
                     </div>
-                
+
                     <p class="lead mb-5">
                         I am a Georgia Tech-certified data analyst with a thirst for solving complex puzzles for
-                        businesses, nonprofits, and civic groups. Long before studying data science, I immersed myself in data journalism websites, like <a href="https://fivethirtyeight.com/" target="_blank">FiveThirtyEight</a>, to better understand current events through a quantitative lens, which partly led me to pursuing this exciting field. With a background in the social sciences and a personal passion for improvisational theater, I intertwine my knack for storytelling and my
-                        sociological viewpoint to present compelling, statistically reliable analysis from raw data. I am a
+                        businesses, nonprofits, and civic groups. Long before studying data science, I immersed myself
+                        in data journalism websites, like <a href="https://fivethirtyeight.com/"
+                            target="_blank">FiveThirtyEight</a>, to better understand current events through a
+                        quantitative lens, which partly led me to pursuing this exciting field. With a background in the
+                        social sciences and a personal passion for improvisational theater, I intertwine my knack for
+                        storytelling and my
+                        sociological viewpoint to present compelling, statistically reliable analysis from raw data. I
+                        am a
                         self-motivated team player who can successfully collaborate remotely. My approach to new
                         challenges is with patience, curiosity, and an eagerness to continually learn.
                     </p>
-                    
+
                 </div>
             </div>
         </div>
@@ -249,16 +272,25 @@
 
     <!-- Contact -->
     <section class="content-section text-white" id="contact" style="background-color: #525A69">
-        <div class="container px-4 px-lg-5">
-            <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Contact Me</h3>
-                <h2 class="mb-5">Let's Chat!</h2>
-                <section class="content-section bg-primary text-white">
+        <!-- <div class="container px-4 px-lg-5"> -->
+        <div class="content-section-heading text-center">
+            <h3 class="text-secondary mb-0">Contact Me</h3>
+            <h2 class="mb-5">Let's Chat!</h2>
+            <div class=row>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-6 bg-primary text-white">
                     <div class="container px-4 px-lg-5 text-center">
                         <div class="container" id="form-control:focus">
-                            <p>Want to talk about how we can work together? Send me a message through the form below or connect with me on <a class="form-link" href="https://www.linkedin.com/in/john-jj-krehbiel-419776a8/" target="_blank">LinkedIn</a>. I can't wait to hear from you!</p>
+                            <br>
+                            <br>
+                            <p style="font-size: 16px;">Want to talk about how we can work together? Send me a message through the form below or
+                                connect with me on <a class="form-link"
+                                    href="https://www.linkedin.com/in/john-jj-krehbiel-419776a8/"
+                                    target="_blank">LinkedIn</a>. I can't wait to hear from you!</p>
+                            
                             <form action="https://formspree.io/f/xzbyyogk" method="POST">
-                                <div class="form-group col-auto">
+                                <div class="mt-6 form-group col-auto">
                                     <label for="firstName">First Name</label>
                                     <input type="text" id="firstName" name="firstName">
                                 </div>
@@ -274,7 +306,9 @@
                                     <label for="message">Message</label>
                                     <textarea id="message" name="message" cols="30" rows="10"></textarea>
                                 </div>
-                                <button type="submit">Send</button>
+                                <button class="btn-send" type="submit">Send</button>
+                                <br>
+                                <br>
                                 <!-- <input type="hidden" name="_subject" value="Contact request from personal website">
                     <input type="email" name="_replyto" placeholder="Your email" required="">
                     <textarea name="message" placeholder="Your message" required=""></textarea>
@@ -285,51 +319,52 @@
             <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
             <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a> -->
                     </div>
-                </section>
-
+                </div>
             </div>
-            <!-- Footer-->
-            <footer class="footer text-center">
-                <div class="container px-4 px-lg-5">
-                    <ul class="list-inline mb-5">
-                        <li class="list-inline-item">
-                            <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/john-jj-krehbiel-419776a8/" target="_blank"><i
-                                    class="icon-social-linkedin"></i></a>
-                        </li>
-                        <!-- <li class="list-inline-item">
+        </div>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3"
+                            href="https://www.linkedin.com/in/john-jj-krehbiel-419776a8/" target="_blank"><i
+                                class="icon-social-linkedin"></i></a>
+                    </li>
+                    <!-- <li class="list-inline-item">
                             <a class="social-link rounded-circle text-white mr-3" href="#!"><i
                                     class="icon-social-twitter"></i></a>
                         </li> -->
-                        <li class="list-inline-item">
-                            <a class="social-link rounded-circle text-white" href="https://github.com/jj-krehbiel" target="_blank"><i
-                                    class="icon-social-github"></i></a>
-                        </li>
-                    </ul>
-                    <p class="text-muted small mb-0">Copyright &copy; Your Website 2021</p>
-                </div>
-            </footer>
-            <!-- Scroll to Top Button-->
-            <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="https://github.com/jj-krehbiel"
+                            target="_blank"><i class="icon-social-github"></i></a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-0">Copyright &copy; Your Website 2021</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
 
-            <!-- Bootstrap core JS-->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-            <!-- Core theme JS-->
-            <script src="js/scripts.js"></script>
-            <!-- Popover function -->
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                crossorigin="anonymous"></script>
-            <!-- <script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- Popover function -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <!-- <script>
         $(function () {
             $('[data-toggle="popover"]').popover()
         });
     </script> -->
-            <script>
-                var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
-                var popoverList = popoverTriggerList.map(function (popoverTrigger) {
-                    return new bootstrap.Popover(popoverTrigger)
-                })
-            </script>
+        <script>
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
+            var popoverList = popoverTriggerList.map(function (popoverTrigger) {
+                return new bootstrap.Popover(popoverTrigger)
+            })
+        </script>
 </body>
 
 </html>

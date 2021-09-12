@@ -3207,6 +3207,19 @@ textarea.form-control-lg {
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
+
+.btn-send {
+  color: #1D809F;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  font: inherit;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 22px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 .btn-light:hover {
   color: #000;
   background-color: #f9fafb;
@@ -7310,6 +7323,10 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.mt-6 {
+  margin-top: 2rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -7795,11 +7812,6 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-grayish {
-  --bs-bg-opacity: 1;
-  background-color: rgba(1d809f, var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -11641,8 +11653,9 @@ footer.footer .social-link:hover {
   left: 0;
   width: 520px;
   height: 250px;
-  background:rgba(0, 0, 0, 0.6);
+  /* background:rgba(0, 0, 0, 0.6); */
   color: #ffffff;
+  background: rgba(29, 128, 159, 0.6);
   font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-direction: column;
@@ -11677,7 +11690,7 @@ footer.footer .social-link:hover {
 
 .image_description{
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
