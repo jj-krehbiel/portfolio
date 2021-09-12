@@ -11653,11 +11653,22 @@ footer.footer .social-link:hover {
   overflow: hidden;
 }
 
+.left{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right{
+  display: flex;
+  justify-content: flex-start;
+}
+
 .image_overlay{
   position: absolute;
   top: 0;
   left: 0;
-  width: 520px;
+  max-width: 520px;
+  min-width: 200px;
   height: 250px;
   /* background:rgba(0, 0, 0, 0.6); */
   color: #ffffff;
@@ -11692,6 +11703,7 @@ footer.footer .social-link:hover {
 .image_title{
   font-size: 1.2rem;
   text-transform: uppercase;
+  display: flex;
 }
 
 .image_description{
@@ -11700,6 +11712,8 @@ footer.footer .social-link:hover {
   margin-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  display: flex;
+  min-width: 200px;
 }
 
 .form-link{
